@@ -1,0 +1,17 @@
+import numpy as np
+#0-D array
+ar0=np.array(5)
+print(ar0)
+#1D array
+ar1=np.array([8,6])
+print(ar1.ndim)
+#2D array
+ar2=np.array([[4,9],[4,8]])
+print(ar2.ndim)
+#3D array
+ar3=np.array([[[3,8],[5,0],[6,2]],[[7,1],[6,9],[4,7]]])
+print(ar3.ndim)
+on=np.array([5,7,8],ndmin=6)
+print(on.ndim)
+print(ar2[1,1]+ar1[0]+ar3[1,2,1])
+print(ar2[1,-1])
