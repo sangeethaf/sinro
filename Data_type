@@ -1,0 +1,4 @@
+import numpy as np
+colour=np.array(["red","blue","green","pink"])
+print(colour[0])
+print(colour.dtype)
