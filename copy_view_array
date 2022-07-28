@@ -1,0 +1,16 @@
+s=np.array([4,6,2,5])
+a=s.copy()
+print(a)
+s[1]=3
+print(s)
+e=np.array([4,6,2,5])
+v=e.view()
+print(v)
+e[3]=0
+print(v)
+str=np.array(["apple","banana","orange","grape"])
+c=str.copy()
+t=str.view()
+str[0]="mango"
+print(c)
+print(t)
