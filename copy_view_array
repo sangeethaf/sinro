@@ -1,3 +1,4 @@
+import numpy as np
 s=np.array([4,6,2,5])
 a=s.copy()
 print(a)
