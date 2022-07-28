@@ -1,0 +1,4 @@
+import numpy as np
+d5=np.array([2,4,5],ndmin=2)
+print(d5)
+print(d5.shape)
