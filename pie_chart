@@ -1,0 +1,6 @@
+import matplotlib.pyplot as plt
+import numpy as np
+total=np.array([12045672,8637423,83224500,76558391])
+x=["Party A","Party B","Part C",'Party D']
+plt.pie(total,labels=x)
+plt.show()
