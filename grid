@@ -1,0 +1,14 @@
+import matplotlib.pyplot as plt
+import numpy as np
+"""(1,2),(2,3),(5,6),(3,1)"""
+#plot 1
+x=np.array([1,2,3,5])
+y=np.array([2,3,1,6])
+plt.subplot(2,1,1)
+plt.plot(x,y)
+#plot 2
+x=np.array([2,7,5,8])
+y=np.array([6,3,1,0])
+plt.subplot(2,1,2)
+plt.plot(x,y)
+plt.show()
